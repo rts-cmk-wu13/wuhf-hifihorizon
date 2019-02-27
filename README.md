@@ -137,3 +137,7 @@ Brug følgende liste, hvis I er i tvivl om hvilke kategorier de forskellige bill
     * jolida_JD302b.jpg
     * jolida_JD502b.jpg 
  
+## EKSTRAOPGAVE
+Hvis du er hurtigt færdig!
+
+Indsæt reklmebannere på hjemmesiden. Du skal selv beslutte hvor på siden reklamebannere vil passe ind. Find et API på nettet, som lader dig fetche bannere og indsæt vilkårlige bannere på hjemmesiden.
