@@ -17,7 +17,7 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 *(billederne findes i den medfølgende .zip fil, ligesom der udleveres en smule data om nogle produkter, men ved alle andre produktdata finder I selv på noget, benyt evt https://lipsum.com/feed/html )*
 
 ### Tekniske krav
-**Client-Side** skal løses vha. HTML, CSS og Javascript, som ved hjælp af fetch-api'et henter data fra en eller fler JSON filer. Jeres CSS skal være modulær, og overholde BEM konventionen, samt principperne i SMACSS. Produktet kan designes efter mobile first princippet, men ikke nødvendigvis implementeret til begge medier *(prioriter browser varianten som den primære der produceres)*.
+**Client-Side** skal løses vha. HTML, CSS og Javascript, som ved hjælp af fetch-api'et henter data fra en eller flere JSON filer. Jeres CSS skal være modulær, og overholde BEM konventionen, samt principperne i SMACSS. Produktet kan designes efter mobile first princippet, men ikke nødvendigvis implementeret til begge medier *(prioriter browser varianten som den primære der produceres)*.
 
 
 ### Planlægning
