@@ -1,7 +1,7 @@
 Projektopgave HI-FI Corner
 
 ## Om opgaven
-Denne opgave er omhandler opsætning, navigation og hentning af data. Læs hele opgavebeskrivelsen grundigt igennem inden du stiller spørgsmål.
+Denne opgave omhandler opsætning, navigation og hentning af data. Læs hele opgavebeskrivelsen grundigt igennem inden du stiller spørgsmål.
 
 ## Opgavebeskrivelse
 
