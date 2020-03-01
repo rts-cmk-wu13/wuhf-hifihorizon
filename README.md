@@ -1,7 +1,7 @@
 # **Projektopgave HI-FI Corner**
 
 ## Om opgaven
-Denne opgave omhandler opsætning, navigation og hentning af data. Læs hele opgavebeskrivelsen grundigt igennem inden du stiller spørgsmål.
+Denne opgave omhandler opsætning, navigation og hentning af data. Læs hele opgavebeskrivelsen grundigt igennem inden I stiller spørgsmål.
 
 ## Opgavebeskrivelse
 
@@ -68,7 +68,7 @@ Alle produkter hentes via et API og udskrives med fetch, alle produkter vises me
 ### Billedfiler
 Alle billeder ligger i en zippet fil fordelt i mapper.
 
-Du vælger om alle billeder skal ligge i én mappe eller om du vil bevare mappestrukturen.
+I vælger om alle billeder skal ligge i én mappe eller om I vil bevare mappestrukturen.
 
 Brug følgende liste, hvis I er i tvivl om hvilke kategorier de forskellige billeder tilhører:
 
