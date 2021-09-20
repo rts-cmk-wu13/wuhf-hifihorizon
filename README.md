@@ -21,7 +21,7 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 
 
 ### Planlægning
-* Layoutanalyse - identificer komponenter/moduler i layoutet. Husk at analysere indefra og ud.
+* Layoutanalyse - identificer komponenter/moduler(BEM blokke) i layoutet. <strike>Husk at analysere indefra og ud.</strike>
 * <strike>User stories - skriv user stories til alle komponenter.</strike>
 * <strike>Udarbejd 'definition of done' på de enkelte user-stories. Hvilke kriterier skal komponentet/modulet opfylde for at være færdigt? Hvad skal den som laver review kontrollere om er i orden?</strike>
 * <strike>SPRINT PLANNING (husk at invitere jeres lærer) Prioriter jeres user-stories og estimer dem, i vælger at arbejde med i det første sprint (planning poker)<strike/>
