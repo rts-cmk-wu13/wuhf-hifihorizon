@@ -14,7 +14,7 @@ I skal samarbejde om projektet digitalt (eksempelvis ved hjælp af GitHub Projec
 Det arbejde der forventes udført når projektet er slut, er en funktionel offentlig tilgængelig client-side deployet til fx. Netlify, som henter data og billeder fra en (eller flere) JSON-datakilde(r). Applikationen skal være sat op, så den matcher det udleverede design.
 
 Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt hører til i en kategori og er knyttet til en producent. I skal selv udtænke hvordan datastrukturen stilles op i JSON.
-*(billederne findes i den medfølgende .zip fil, men ved alle de andre produktdata finder I selv på noget, benyt evt https://lipsum.com/feed/html )*
+*(billederne findes i den medfølgende .zip fil, men ved alle de andre produktdata finder I selv på noget, benyt evt https://lipsum.com/feed/html eller få hjælp fra AI til at generere produkt-beskrivelser og anden data. )*
 
 ### Tekniske krav
 **Client-Side** skal løses vha. HTML, CSS og Javascript(React.js), som ved hjælp af fetch-api'et henter data fra en eller flere JSON filer. I vælger i gruppen, hvordan I arbejder med CSS (CSS, SCSS, SASS, Tailwind etc.), Produktet _kan_ designes efter mobile first princippet, men ikke nødvendigvis implementeret til begge medier *(prioriter browser varianten som den primære der produceres)*.
