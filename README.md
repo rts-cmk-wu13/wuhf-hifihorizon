@@ -7,22 +7,22 @@ Denne opgave omhandler opsætning, navigation og hentning af data. Læs hele opg
 
 I skal fremstille en webapplikation til en HI-FI webbutik, som præsenterer butikkens produkter inddelt efter kategori eller producent. Brugeren af sitet skal nemt og overskueligt kunne finde rundt i de forskellige produkter og kunne fremsøge produkter vha. søgeord. Der er **primært** tale om præsentation af produkterne. I kan lave et simuleret check-ud flow som en ekstraopgave.
 
-Opgaven varer 2 uger og omhandler både planlægningen og produktionen af client-side produktet. Opgaven skal planlægges, der skal udarbejdes designanalyse (identifikation af komponenter/moduler). Der skal udarbejdes simple user-stories med accept-kriterier til minimum 10 komponenter/moduler. 
+Opgaven varer 2 uger og omhandler både planlægningen og produktionen af client-side produktet. Opgaven skal planlægges, der skal udarbejdes designanalyse (identifikation af komponenter/moduler). Der skal udarbejdes simple user-stories med accept-kriterier til komponenter/moduler (brug evt. AI). 
 
 I skal samarbejde om projektet digitalt (eksempelvis ved hjælp af GitHub Projects). Der er mulihged for, at I undervejs i processen også vedligeholder et fysisk kanban-board, som kan bruges fx. ved de daglige scrum-møder.
 
 Det arbejde der forventes udført når projektet er slut, er en funktionel offentlig tilgængelig client-side deployet til fx. Netlify, som henter data og billeder fra en (eller flere) JSON-datakilde(r). Applikationen skal være sat op, så den matcher det udleverede design.
 
-Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt hører til i en kategori og er knyttet til en producent. I skal selv udtænke hvordan datastrukturen stilles op i JSON.
+Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt hører til i en kategori og er knyttet til en producent. I skal selv udtænke hvordan datastrukturen for prokdukter mv. skal stilles op. Brug json-server som data-kilde
 *(billederne findes i den medfølgende .zip fil, men ved alle de andre produktdata finder I selv på noget, benyt evt https://lipsum.com/feed/html eller få hjælp fra AI til at generere produkt-beskrivelser og anden data. )*
 
 ### Tekniske krav
-**Client-Side** skal løses vha. HTML, CSS og Javascript(React.js), som ved hjælp af fetch-api'et henter data fra en eller flere JSON filer. I vælger i gruppen, hvordan I arbejder med CSS (CSS, SCSS, SASS, Tailwind etc.), Produktet _kan_ designes efter mobile first princippet, men ikke nødvendigvis implementeret til begge medier *(prioriter browser varianten som den primære der produceres)*.
+**Client-Side** skal løses som et React.js-projekt, som ved hjælp af fetch-api'et henter data fra en json-server. I vælger i gruppen, hvordan I arbejder med CSS (CSS, SCSS, SASS, Tailwind etc.), Produktet _kan_ designes efter mobile first princippet, men ikke nødvendigvis implementeret til begge medier *(prioriter browser varianten som den primære der produceres)*.
 
 
 ### Planlægning
-* Layoutanalyse - identificer komponenter/moduler(BEM blokke) i layoutet. <strike>Husk at analysere indefra og ud.</strike>
-* User stories - skriv user stories til alle komponenter brug evt AI.
+* Layoutanalyse - identificer komponenter/moduler i layoutet. (Husk at analysere "indefra og ud", så jeres komponenter/moduler ikke bliver for store).
+* User stories - skriv user stories til alle komponenter - brug evt AI.
 * Udarbejd 'definition of done' på de enkelte user-stories (brug evt. AI). Hvilke kriterier skal komponentet/modulet opfylde for at være færdigt? Hvad skal den som laver review kontrollere om er i orden?
 
 ### Forslag til arbejdsprocess
@@ -68,7 +68,8 @@ Alle produkter hentes via et api, og udskrives med fetch, alle produkter vises m
 
 ### Github
 * Projektet accepteres som en GitHub assignment.
-* Projekt-planlægningen udføres i et Github project, eller andet tilsvarende værktøj. 
+* Projekt-planlægningen udføres i et Github project, eller andet tilsvarende værktøj.
+* Sørg for at arbejde med code-reviews, så et andet team-medlem kigger kode igennem inden det merges. 
 * Der skal *committes ved væsentlige ændringer eller færdiggørelse af en funktionalitet* - og altid inden fyraften.
 * Alle commit tekster på GitHub skal kort beskrive ændringerne. **Der må ikke skrives ligegyldige beskrivelser!**.
 
